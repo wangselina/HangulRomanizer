@@ -84,7 +84,7 @@ var Romanizer = (function () {
     function Romanizer() {
     }
     Romanizer.prototype.isHangul = function (charUnicode) {
-        return (charUnicode >= hangulUnicodeStartIndex || charUnicode <= hangulUnicodeEndIndex);
+        return (charUnicode >= hangulUnicodeStartIndex && charUnicode <= hangulUnicodeEndIndex);
     };
     Romanizer.prototype.romanize = function (koreanText) {
         var romanizedText = "";
