@@ -1,0 +1,21 @@
+{
+  "name": "hangulromanizer",
+  "version": "1.0.0",
+  "description": "romanizes hangul",
+  "main": "Romanizer.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Selina Wang",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.1.0",
+    "@types/mocha": "^2.2.46",
+    "@types/node": "^9.3.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.5.3",
+    "ts-node": "^4.1.0"
+  }
+}
